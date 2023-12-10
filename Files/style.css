@@ -1,0 +1,1737 @@
+body{
+    margin: 0px;
+}
+.trade{
+    font-family: 'EB Garamond', serif;
+    font-size: 2rem;
+    color: #D2DE32;
+}
+.Ssale{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    color: #A2C579;
+  
+}
+.pera{
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color: #FFFFDD;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+}
+
+        /* navbar */
+.navbar{
+    background-color: #FFFFDD;
+    display: flex;
+    position: fixed;
+    z-index: 100;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.topLeft{
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+.Logo{
+    height: 4rem;
+    margin-left: 2rem;
+}
+.navitem{
+    display: flex;
+    gap: 4rem;
+    margin: 3rem 1rem 1rem 4rem;
+}
+.navitems{
+    font-family: 'EB Garamond', serif;
+    text-decoration: none;
+    color: #040D12;
+}
+.navitems:hover{
+    text-decoration: underline;
+    
+}
+.floatright{
+    display: flex;
+    margin-left: auto;
+    
+    margin-right: 2rem;
+    margin-top: 1.8rem;
+}
+.cartsvg{
+    height : 2.8rem ;
+}
+
+      /* main  */
+.main{
+    width: 100%; 
+
+}
+.maincontainer{
+    display: flex;
+    height: 32rem;
+    width: 100vw;
+    margin-top: 5rem;   
+}
+.maincontainer button{
+    font-family: 'EB Garamond', serif;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 17rem;
+    height: 4rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #FFFFDD;
+    padding: 1rem 1rem 1rem 2rem;
+}
+.gradient-background {
+    width: 100%;
+    background: linear-gradient(45deg, #016A70, #A2C579, #D2DE32);
+    background-size: 600% 100%;
+    animation: gradient-animation 6s linear infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 0%;
+    }
+    100% {
+        background-position: 100% 0%;
+    }
+}
+.maintext{
+    margin: 2rem 1rem 2rem 4rem;
+    padding: 1rem;
+}
+.mainposter{
+    margin-left: auto;
+    margin-right: 4rem;
+}
+.posterimg{
+    margin-right: 3rem;
+    height: 30rem;
+    padding: 1rem;
+}
+
+
+           /* supports  */
+.SImg{
+    height: 80px;
+}
+.supports{
+    display: grid;
+    grid-template-columns: .2fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr .2fr;
+    margin-top: 4rem;
+    gap: 2rem;
+}
+.supports .f{
+    text-align: center;
+    padding: .5rem .1rem;
+    box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.2);
+    border: 1px solid #cce7d0b0;
+    border-radius: .3rem;
+    transition: box-shadow 0.3s;   
+}
+.f:hover {
+    box-shadow: 12px 10px 54px rgba(0, 0, 0, 0.1);
+  }
+.supports .f img{
+    margin-bottom: 1rem;
+}
+.supports .f button{
+    font-family: 'EB Garamond', serif;
+    background: transparent;
+    border: 0;
+    padding: .3rem .5rem;
+    border-radius: .2rem;
+    color: #FFFFDD;
+  background-color: #A2C579;
+} 
+.f1{
+    grid-column: 2 / 3;
+    height: 8rem;
+}
+.f2{
+    grid-column: 3 / 4;
+    height: 8rem;
+}
+.f3{
+    grid-column: 4 / 5;
+    height: 8rem;
+}
+.f4{
+    grid-column: 5 / 6;
+    height: 8rem;
+}
+.f5{
+    grid-column: 6 / 7;
+    height: 8rem;
+}
+.f6{
+    grid-column: 7 / 8;
+    height: 8rem;
+}
+           /* head  */
+.heading{
+    
+    margin-top: 6rem;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hhead{
+    font-family: 'EB Garamond', serif;
+    color: #A2C579;
+}
+h1{
+    color: #016A70;
+    font-size: 3rem;
+}
+.heading h5{
+    font-size: 1.2rem;
+}
+          /* Products  */
+.Products{
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr ;
+    gap: 3rem;
+    margin-top: 3rem;
+    padding: 4rem;
+}
+.Products p,h4,h5,button{
+    margin: .3rem;
+}
+.Products p{
+    font-family: 'Lato', sans-serif;
+    font-size: .8rem;
+    color: #A2C579;
+}
+.Products h4{
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #A2C579;
+}
+.Products h5{
+    font-family: 'EB Garamond', serif;
+    font-size: .9rem;
+    color: #016A70;
+}
+.Products button{
+   background-color: transparent;
+   border: .01rem solid lightgrey;
+   border-radius: .1rem;
+
+}
+.Products button:hover{
+    background-color: #FFFFDD;
+ }
+.item1{
+    padding: 2rem;
+    border: .1rem solid lightgray;
+    border-radius: 1rem;
+}
+.pImg{
+    height: 180px;
+    border-radius: 1rem;
+}
+
+             /* banner  */
+.banner{
+    margin-top: 5rem;
+    background-image: url(../Assets/container/b1.png);
+    height: 40%;
+    display: flex;
+    justify-content: center;
+}
+.flexbanner{
+    color: rgb(248, 244, 238);
+}
+
+.bthree{
+    font-family: 'EB Garamond', serif;
+    color: #016A70;
+    font-size: 1.4rem;
+}
+.btwo{
+    font-family: 'Roboto', sans-serif;
+    color: #016A70;
+    font-weight: 150;
+     font-size: 1.7rem;
+}
+.banner button{
+    font-family: 'EB Garamond', serif;
+    background-color: transparent;
+    font-size: 1.2rem;
+    height: 2.5rem;
+    border-radius: .4rem;
+    color: #FFFFDD;
+    border: .1rem solid lightgray;
+}
+.banner button:hover{
+    background-color: #016A70;
+}
+          
+       /* deals  */
+.deals{
+    margin-top: 6rem;
+    display: grid;
+}
+.ugrid{
+    display: grid;
+    grid-template-columns: 1fr 4fr 4fr 1fr;
+    gap: 1rem;
+}
+.lgrid{
+    display: grid;
+    grid-template-columns: 1fr 3fr 3fr 3fr 1fr;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.indeal{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.deal1 .indeal h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+    color: #FFFFDD;
+    width: 15rem;
+}
+.deal1 .indeal h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: 150;
+    color: #A2C579;
+    width: 15rem;
+    font-size: 1rem;
+
+}
+.deal1 .indeal button{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: .6rem;
+    background: transparent;
+    border: .1rem solid silver;
+}
+.deal1 .indeal button:hover{
+    background-color: #A2C579;
+}
+.deal1{
+    background-image: url(../Assets/supports/i1.png);
+    width: 530px;
+    height: 300px;
+    background-size: cover;
+    grid-column: 2 / 3;   
+}
+.deal2 .indeal h3{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 150;
+    color: #FFFFDD;
+    width: 15rem;
+}
+.deal2 .indeal h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: 150;
+    color: #A2C579;
+    width: 15rem;
+    font-size: 1.2rem;
+}
+.deal2 .indeal button{
+    font-family: 'Lato', sans-serif;
+    color: white;
+    width: 7rem;
+    height: 2rem;
+    border-radius: .6rem;
+    background: transparent;
+    border: .1rem solid silver;
+}
+.deal2 .indeal button:hover{
+    background-color: #A2C579;
+}
+.deal2{
+    background-image: url(../Assets/supports/i2.png);
+    width: 530px;
+    height: 300px;
+    background-size: cover;
+    grid-column: 3 / 4;
+}
+
+ .indeal{
+    margin-top: 1.5rem;
+}
+.deal3 .indeal h3{
+    font-family: 'Roboto', sans-serif;
+    color: #016A70;
+    width: 15rem;
+}
+.deal3 .indeal h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: 150;
+    color: #A2C579;
+    width: 15rem;
+}
+
+.deal3{
+    background-image: url(../Assets/supports/i3.png);
+    width: 350px;
+    height: 192px;
+    background-size: cover;
+    grid-column: 2 / 3;
+}
+
+
+.deal4 .indeal h3{
+    font-family: 'Roboto', sans-serif;
+    color: #016A70;
+    width: 15rem;
+}
+.deal4 .indeal h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: 150;
+    color: #A2C579;
+    
+    width: 15rem;
+}
+
+.deal4{
+    background-image: url(../Assets/supports/i4.png);
+    width: 350px;
+    height: 192px;
+    background-size: cover;
+    grid-column: 3 / 4;
+}
+
+.deal5 .indeal h3{
+    
+        font-family: 'Roboto', sans-serif;
+        color: #016A70;
+        width: 15rem;
+    }
+
+.deal5 .indeal h4{
+    font-family: 'EB Garamond', serif;
+    font-weight: 150;
+    color: #FFFFDD;
+    width: 15rem;
+}
+
+
+.deal5{
+    background-image: url(../Assets/supports/i5.png);
+    width: 350px;
+    height: 192px;
+    background-size: cover;
+    grid-column: 4 / 5;
+}
+
+        /* footer  */
+.footer{
+    margin-top: 5rem;
+    padding-bottom: .5rem;
+}
+.infooter{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 3rem 0rem 3rem;
+}
+.contact{
+    margin-top: 1rem;
+    padding: 2rem;
+}
+.about{
+    margin-top: 3.8rem;
+    padding: 2rem;
+}
+.intallation{
+    margin-top: 3.8rem;
+    padding: 2rem;
+}
+.fthree{
+    font-size: 1.5rem;
+    color: #016A70;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 15;
+}
+.ffive{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    color: #FFFFDD;
+    font-weight: 15;
+}
+.ffour{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.2rem;
+    color: #016A70;
+    font-weight: 15;
+}
+.fp{
+    font-size: .9rem;
+    color: beige;
+}
+
+   /* Cart  */
+   .CartTab{
+    margin-top: 5rem;
+    width: 350px;
+    background-color: #353432;
+    color: white;
+    position: fixed;
+    inset: 0 -400px 0 auto;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px 70px;
+    transition: 0.5s;
+}
+.CartTab h2{
+    color: #A2C579;
+    font-size: 30px;
+    padding: 20px;
+    margin: 0;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+.CartTab .CartTabBtn{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    position: absolute;
+    bottom: 0;
+    gap: 0.1rem;
+    margin-left: 0.2rem;
+}
+.CartTab .CartTabBtn button {
+   
+    background-color: #D2DE32;
+    border: none;
+    cursor: pointer;
+    width: 10.2rem;
+    height: 3rem;
+    border: 0.01rem solid lightgrey;
+    border-radius: 0.1rem;
+}
+.cartItemAndTotal{
+    font-family: 'EB Garamond', serif;
+    font-size: 16px;
+   color: #016A70;
+    height: 60px;
+    width: 97%;
+    position: absolute;
+    bottom: 55;
+    margin: 0rem 0.3rem;
+    border: 0.01rem solid lightgrey;
+    border-radius: 0.1rem;
+    
+}
+.cartItemAndTotal:hover{
+    background-color: #FFFFDD;
+}
+.CTitem{
+    display: grid;
+    grid-template-columns: 80px 60px 50px 1fr;
+    gap: 10px;
+    text-align: center;
+    align-items: center;
+    padding: 4px;
+}
+.CartTab .CartTabBtn .close {
+    background-color: #FFFFDD;
+    margin-left: 0.1rem;
+}
+.CartTab .CTitem .CTimage img{
+    width : 75px;
+}
+.CTimage img:hover {
+    cursor: pointer;
+  }
+.CartTab .CTitem .CTquantity span{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.CartTab .CTitem .CTquantity span:nth-child(2){
+    background-color: transparent;
+    color: white;
+}
+.productList .CTitem:nth-child(even){
+    background-color: black;
+
+}
+.productList{
+    overflow: auto;
+}
+.productList::-webkit-scrollbar{
+    width: 0;
+}
+.showCart .CartTab{
+    inset: 0 0 0 auto;
+}
+
+
+@media screen and   (max-width: 1200px) {
+    
+    .SImg{
+        height: 70px;
+    }
+ 
+    .pImg{
+    height: 110px;
+    border-radius: 1rem;
+    }
+    .productName{
+    font-size: 1rem;
+    }
+
+
+           /* BANNER  */
+           .bthree {
+            font-size: 1.1rem;
+        }
+
+        .btwo {
+            font-weight: 150;
+            font-size: 1.3rem;
+            margin: 0.5rem;
+        }
+
+        .banner button {
+            font-size: 1rem;
+            height: 2.2rem;
+        }
+        .Products p, h4, h5, button {
+            margin: 0rem;
+        }
+
+   /* DEAL  */
+.deal1{
+    background-image: url(../Assets/supports/i1.png);
+    width: 420px;
+    height: 250px;
+    background-size: cover;
+    grid-column: 2 / 3;   
+}
+.deal2{
+    background-image: url(../Assets/supports/i2.png);
+    width: 420px;
+    height: 250px;
+    background-size: cover;
+    grid-column: 3 / 4;
+}
+.deal3{
+    background-image: url(../Assets/supports/i3.png);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    grid-column: 2 / 3;
+}
+.deal4{
+    background-image: url(../Assets/supports/i4.png);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    grid-column: 3 / 4;
+}
+.deal5{
+    background-image: url(../Assets/supports/i5.png);
+    width: 250px;
+    height: 150px;
+    background-size: cover;
+    grid-column: 4 / 5;
+}
+
+/* FOOTER   */
+.playStore{
+    margin-top: 0.3rem;
+}
+
+ /* CART*/
+.cartItemAndTotal{
+    width: 20.4rem;
+}
+    }
+
+
+
+
+
+
+
+    @media screen and   (max-width: 900px) {
+          
+        /* navitem */
+        .navitem{
+            display: flex;
+            gap: 2rem;
+            margin: 3rem 1rem 1rem 4rem;
+        }
+        .floatright{
+            
+            margin-right: 2rem;
+            margin-top: 1.8rem;
+        }
+        .main{
+            width: 100%;
+        }
+
+        /* supports */
+
+        .SImg{
+            height: 90px;
+        }
+        .supports{
+            display: grid;
+            grid-template-columns: .2fr 1.5fr 1.5fr 1.5fr  .2fr;
+            grid-template-rows: 1fr 1fr;
+            margin-top: 4rem;
+            gap: 2rem;
+        }
+        .f1{
+            grid-column: 2 / 3;
+            height: 8rem;
+        }
+        .f2{
+            grid-column: 3 / 4;
+            height: 8rem;
+        }
+        .f3{
+            grid-column: 4 / 5;
+            height: 8rem;
+        }
+        .f4{
+            grid-column: 2 / 3;
+            grid-row: 2;
+            height: 8rem;
+        }
+        .f5{
+            grid-column: 3 / 4;
+            grid-row: 2;
+            height: 8rem;
+        }
+        .f6{
+            grid-column: 4 / 5;
+            grid-row: 2;
+            height: 8rem;
+        }
+
+        /* Products */
+
+        .pImg{
+        height: 100px;
+        border-radius: 1rem;
+    }
+    .Products{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr  ;
+        gap: 2rem;
+        margin-top: 3rem;
+    }
+    .Products h4 {
+        font-size: 1rem;
+     }
+     .Products p {
+        font-size: .7rem;
+    }
+    .item1{
+        padding: 2rem;
+        border: .1rem solid lightgray;
+        border-radius: 1rem;
+    }
+
+  /* BANNER  */
+
+   .bthree {
+    font-size: 1.1rem;
+   }
+   .btwo {
+    font-weight: 150;
+    font-size: 1.3rem;
+    margin: 0.5rem;
+    }
+    .banner button {
+    font-size: 1rem;
+    height: 2.2rem;
+    }
+    .Products p, h4, h5, button {
+    margin: 0rem;
+    }
+
+                /* deal  */
+
+   .indeal {
+           margin-top: 0.1rem;
+    }      
+    .deal1 .indeal h3 {
+        FONT-SIZE: 1REM;
+    }      
+    .deal1 .indeal h4 {
+        font-size: .9rem;
+    }
+    .deal2 .indeal h3 {
+        FONT-SIZE: .9REM;
+    }      
+    .deal2 .indeal h4 {
+        font-size: 1.1rem;
+    }
+    .deal3 .indeal h3 {
+        FONT-SIZE: 1REM;
+    }
+    .deal3 .indeal h4 {
+        width: 10rem;
+        font-size: .9rem;
+    }
+    .deal4 .indeal h3 {
+        FONT-SIZE: 1REM;
+        width: 10rem;
+        margin-top: 0.4rem;
+    }
+    .deal4 .indeal h4 {
+        width: 10rem;
+        font-size: .9rem;
+    }
+    .deal5 .indeal h3 {
+        FONT-SIZE: 1REM;
+    }
+    .deal5 .indeal h4 {
+        width: 10rem;
+        font-size: .9rem;
+    }
+    .deal1{
+        background-image: url(../Assets/supports/i1.png);
+        width: 260px;
+        height: 160px;
+        background-size: cover;
+        grid-column: 2 / 3;   
+    }
+    .deal2{
+        background-image: url(../Assets/supports/i2.png);
+        width: 260px;
+        height: 160px;
+        background-size: cover;
+        grid-column: 3 / 4;
+    }
+    .deal3{
+        background-image: url(../Assets/supports/i3.png);
+        width: 180px;
+        height: 100px;
+        background-size: cover;
+        grid-column: 2 / 3;
+    }
+    .deal4{
+        background-image: url(../Assets/supports/i4.png);
+        width: 180px;
+        height: 100px;
+        background-size: cover;
+        grid-column: 3 / 4;
+    }
+    .deal5{
+        background-image: url(../Assets/supports/i5.png);
+        width: 180px;
+        height: 100px;
+        background-size: cover;
+        grid-column: 4 / 5;
+    }
+
+     /* FOOTER  */
+ 
+    .infooter {
+    display: flex;
+    justify-content: space-between;
+    margin: 0rem;
+    }
+    .footer{
+        padding-bottom: .5rem;
+        margin-top: 3rem;
+    }
+
+    .ffive {
+        font-size: .9rem;
+    }
+    .ffour {
+        font-size: 1.1rem;
+    }
+    .fthree {
+        font-size: 1.3rem;
+    }
+    .appStore{
+        height: 2.5rem;
+    }
+    .playStore{
+        height: 2.5rem;
+        margin-top: 0.3rem;
+    }
+    .payMethod{
+        height: 2rem;
+    }
+
+
+
+    /* CART */
+
+    .CartTab{
+        margin-top: 5rem;
+        width: 320px;
+        grid-template-rows: 60px 1fr 50px 1fr;
+        transition: 0.5s;
+    }
+    .CartTab h2 {
+        font-size: 27px;
+        padding: 18px;
+    }
+    .CTitem {
+        display: grid;
+        grid-template-columns: 80px 60px 50px 1fr;
+        gap: 8px;
+        padding: 3px;
+    }
+     .CartTab .CTitem .CTimage img {
+       width: 70px;
+    }
+    .CartTab .CartTabBtn .close {
+        margin: 0rem 0.3rem;
+    }
+    .cartItemAndTotal {
+        font-family: 'EB Garamond', serif;
+        font-size: 16px;
+        color: #016A70;
+        height: 55px;
+        width: 97%;
+        position: absolute;
+        bottom: 52;
+        border: 0.01rem solid lightgrey;
+        border-radius: 0.1rem;
+    }
+    .cartItemAndTotal {
+        width: 18.4rem;
+        margin: 0rem 0.7rem;
+    }
+    .CartTab .CartTabBtn button {
+    background-color: #D2DE32;
+    border: none;
+    cursor: pointer;
+    width: 9.2rem;
+    height: 2.8rem;
+    border: 0.01rem solid lightgrey;
+    border-radius: 0.1rem;
+    }
+        }
+        
+
+        @media screen and   (max-width: 740px){
+
+            /* navitem  */
+            .topLeft{
+                margin-left: 0.5rem;
+            }         
+            .Logo{
+                height: 3.5rem;
+                margin-left: 1rem;
+            }
+            .navitem{
+                display: flex;
+                gap: 1.5rem;
+                margin: 3rem 1rem 1rem 1.5rem;
+            }
+            .navitems {
+                font-size: .9rem;
+            }
+            .floatright{ 
+                margin-right: 2rem;
+                margin-top: 1.8rem;
+            }
+            
+                   /* MAIN   */
+            .main{
+                width: 100%;
+            }
+            .maincontainer{
+                display: flex;
+                height: 28rem;
+                width: 100vw;
+                margin-top: 5rem;
+            }
+            .gradient-background {
+                width: 100%;
+                background: linear-gradient(45deg, #016A70, #A2C579, #D2DE32);
+                background-size: 600% 100%;
+                animation: gradient-animation 6s linear infinite;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+            }
+            @keyframes gradient-animation {
+                0% {
+                    background-position: 0% 0%;
+                }
+                100% {
+                    background-position: 100% 0%;
+                }
+            }
+            .maintext{
+                margin: 2rem 1rem 2rem 4rem;
+                padding: 1rem;
+            }
+            .trade{
+                font-family: 'EB Garamond', serif;
+                font-size: 1.5rem;
+                color: #D2DE32;
+            }
+            .Ssale{
+                font-family: 'Roboto', sans-serif;
+                font-size: 1.5rem;
+                color: #A2C579;
+            }
+            .pera{
+                font-family: 'Lato', sans-serif;
+                font-size: .8rem;
+                color: #FFFFDD;
+            }
+            h1{
+                font-family: 'Roboto', sans-serif;
+            }
+            .maincontainer button{
+                font-family: 'EB Garamond', serif;
+                background-color: transparent;
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 8rem;
+                border: 0;
+                cursor: pointer;
+                font-size: 1rem;
+                color: #FFFFDD;
+                padding: 1rem 1rem 1rem 2rem;
+            }
+            .mainposter{
+                margin-left: auto;
+                margin-right: 1rem;
+            }
+            .posterimg{
+                margin-right: 1rem;
+                height: 25rem;
+                padding: 1rem;
+                padding-top: 3rem;
+            }
+
+            /* supports */
+    
+            .SImg{
+                height: 80px;
+            }
+            .supports{
+                display: grid;
+                grid-template-columns: .2fr 1.5fr 1.5fr 1.5fr  .2fr;
+                grid-template-rows: 1fr 1fr;
+                margin-top: 4rem;
+                gap: 2rem;
+            }
+            
+            .f1{
+                grid-column: 2 / 3;
+                height: 8rem;
+            }
+            .f2{
+                grid-column: 3 / 4;
+                height: 8rem;
+            }
+            .f3{
+                grid-column: 4 / 5;
+                height: 8rem;
+            }
+            .f4{
+                grid-column: 2 / 3;
+                grid-row: 2;
+                height: 8rem;
+            }
+            .f5{
+                grid-column: 3 / 4;
+                grid-row: 2;
+                height: 8rem;
+            }
+            .f6{
+                grid-column: 4 / 5;
+                grid-row: 2;
+                height: 8rem;
+            }
+    
+    
+            /* Products */
+    
+            .pImg{
+            height: 80px;
+            border-radius: 1rem;
+        }
+        .Products{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr  ;
+            gap: 1rem;
+            margin-top: 3rem;
+        }
+        .item1{
+            padding: 1rem;
+            border: .1rem solid lightgray;
+            border-radius: 1rem;    
+        }
+        .Products p, h4, h5, button {
+            margin: 0rem;
+        }
+
+        .bthree {
+            font-size: 1.1rem;
+        }
+        .btwo {
+            font-weight: 150;
+            font-size: 1.3rem;
+            margin: 0.5rem;
+        }
+        .banner button {
+            font-size: 1rem;
+            height: 2.2rem;
+        }
+                    /* deal  */
+
+                    
+        .ugrid{
+        gap: .8rem;
+        }
+        .lgrid{
+        gap: .8rem;
+        }
+        .deal1{
+            background-image: url(../Assets/supports/i1.png);
+            width: 210px;
+            height: 120px;
+            background-size: cover;
+            grid-column: 2 / 3;   
+        }
+        .deal2{
+            background-image: url(../Assets/supports/i2.png);
+            width: 210px;
+            height: 120px;
+            background-size: cover;
+            grid-column: 3 / 4;
+        }
+        .deal3{
+            background-image: url(../Assets/supports/i3.png);
+            width: 140px;
+            height: 80px;
+            background-size: cover;
+            grid-column: 2 / 3;
+        }
+        .deal4{
+            background-image: url(../Assets/supports/i4.png);
+            width: 140px;
+            height: 80px;
+            background-size: cover;
+            grid-column: 3 / 4;
+        }
+        .deal5{
+            background-image: url(../Assets/supports/i5.png);
+            width: 140px;
+            height: 80px;
+            background-size: cover;
+            grid-column: 4 / 5;
+        }
+        .indeal {
+            margin-top: 0.1rem;
+        }      
+        .deal1 .indeal h3 {
+         FONT-SIZE: .9REM;
+         width: 6rem;
+         margin: 0.1rem;
+        }      
+        .deal1 .indeal h4 {
+         display: none;
+        }
+        .deal1 .indeal button{
+         width: 6rem;
+         height: 2rem;
+        }
+        .deal2 .indeal h3 {
+         FONT-SIZE: .9REM;
+         margin: 0.1rem;
+         width: 5rem;
+        }      
+        .deal2 .indeal h4 {
+        display: none;
+        }
+        .deal2 .indeal button{
+        width: 6rem;
+        height: 2rem;
+        }
+        .deal3 .indeal h3 {
+         FONT-SIZE: .9REM;
+         width: 5rem;
+        }
+        .deal3 .indeal h4 {
+         display: none;
+        }
+        .deal4 .indeal h3 {
+         FONT-SIZE: .9REM;
+         width: 6rem;
+         margin-top: 0.4rem;
+        }
+        .deal4 .indeal h4 {
+         display: none;
+        }
+        .deal5 .indeal h3 {
+         FONT-SIZE: .9REM;
+         width: 6rem;
+        }
+        .deal5 .indeal h4 {
+         display: none;
+        }
+
+        /* FOOTER  */
+
+        .footer{
+            padding-bottom: .5rem;
+            margin-top: 3rem;
+        }    
+        .infooter {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem;
+        }
+        .contact {
+            margin-top: 1rem;
+            padding: 1rem;
+        }
+        .about {
+            margin-top: 3.8rem;
+            padding: 1rem;
+        }
+        .intallation {
+            margin-top: 3.8rem;
+            padding: 1rem;
+        }
+        .appStore{
+            width: 150px;
+        }
+        .playStore{
+            width: 150px;
+            margin-top: 0.3rem;
+        }
+        .payMethod{
+            width: 170px;
+        }
+        .ffive {
+            font-size: .8rem;
+        }
+        .ffour {
+            font-size: 1rem;
+        }
+        .fthree {
+            font-size: 1.2rem;
+        }
+
+         /* CART */
+
+    .CartTab{
+        margin-top: 5rem;
+        width: 270px;
+        grid-template-rows: 50px 1fr 50px 50px;
+        transition: 0.5s;
+    }
+    .CartTab h2 {
+        font-size: 24px;
+        padding: 15px;
+    }
+    .CTitem {
+        display: grid;
+        grid-template-columns: 55px 55px 45px 1fr;
+        gap: 8px;
+        padding: 3px;
+    }
+     .CartTab .CTitem .CTimage img {
+       width: 55px;
+    }
+    .CartTab .CartTabBtn .close {
+        margin: 0rem 0.3rem;
+    }
+    .cartItemAndTotal {
+        font-family: 'EB Garamond', serif;
+        font-size: 16px;
+        color: #016A70;
+        height: 45px;
+        width: 15.4rem;
+        position: absolute;
+        bottom: 48;
+        margin: 0rem 0.7rem;
+        border: 0.01rem solid lightgrey;
+        border-radius: 0.1rem;
+    }
+    .CartTab .CartTabBtn button {
+    background-color: #D2DE32;
+    border: none;
+    cursor: pointer;
+    width: 7.7rem;
+    height: 2.6rem;
+    border: 0.01rem solid lightgrey;
+    border-radius: 0.1rem;
+    }
+            }
+
+
+
+    @media screen and   (max-width: 500px){
+
+         /* Navvbar  */
+
+            .topLeft{
+               margin-left: 0rem;
+            }
+            .Logo {
+            height: 2.7rem;
+            margin-left: 0.7rem;
+            }
+            .navitem { 
+                gap: 0.3rem;
+                margin: 3rem 1rem 1rem 0.5rem;
+            }
+            .navitems {
+                font-size: 10px;
+            }
+            .floatright{
+                margin-right: 2rem;
+                margin-top: 1.8rem;
+            }
+                .cartsvg{
+                    height : 2.3rem ;
+                }
+
+               /* Maiin  */
+                
+               .maincontainer {
+                display: flex;
+                height: 18rem;
+                width: 100vw;
+                margin-top: 5rem;
+            }
+               .maintext {
+                margin: 0rem 0.5rem 1rem 0.5rem;
+                padding: 0.5rem;
+            }
+                .trade{
+                    font-family: 'EB Garamond', serif;
+                    font-size: 1rem;
+                    color: #D2DE32;
+                }
+                .Ssale{
+                    font-family: 'Roboto', sans-serif;
+                    font-size: 1rem;
+                    color: #A2C579;
+                  
+                }
+                .pera{
+                    font-family: 'Lato', sans-serif;
+                    font-size: .5rem;
+                    color: #FFFFDD;
+                }
+                h1{
+                    font-family: 'Roboto', sans-serif;
+                }
+                .maincontainer button {
+                    font-family: 'EB Garamond', serif;
+                    background-color: transparent;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    width: 4rem;
+                    border: 0;
+                    cursor: pointer;
+                    font-size: .8rem;
+                    color: #FFFFDD;
+                    padding: 1rem 0rem 1rem 2rem;
+                }
+                .mainposter {
+                    margin-left: 0.5rem;
+                    margin-right: 0.5rem;
+                }
+                .posterimg{
+                    margin-right: 0.5rem;
+                    height: 16.5rem;
+                    padding: 0rem;
+                    padding-top: 0.1rem;
+                }
+
+
+                /* SUPPORTS */
+    
+            .SImg{
+                height: 50px;
+            }
+            .supports{
+                display: grid;
+                grid-template-columns: .2fr 1.5fr 1.5fr 1.5fr  .2fr;
+                grid-template-rows: 1fr 1fr;
+                margin-top: 4rem;
+                gap: 1rem;
+            }
+            
+            .f1{
+                grid-column: 2 / 3;
+                height: 8rem;
+            }
+            .f2{
+                grid-column: 3 / 4;
+                height: 8rem;
+            }
+            .f3{
+                grid-column: 4 / 5;
+                height: 8rem;
+            }
+            .f4{
+                grid-column: 2 / 3;
+                grid-row: 2;
+                height: 8rem;
+            }
+            .f5{
+                grid-column: 3 / 4;
+                grid-row: 2;
+                height: 8rem;
+            }
+            .f6{
+                grid-column: 4 / 5;
+                grid-row: 2;
+                height: 8rem;
+            }
+
+             /* HEADING  */
+
+             .head {
+                font-size: 1.9rem;
+            }
+            .heading h5 {
+                font-size: 1rem;
+            }
+
+            /* PROODUCTS  */
+
+            .pImg {
+                height: 100px;
+                border-radius: 1rem;
+            }
+            .Products {  display: grid;
+            grid-template-columns:  2fr 2fr;
+            /* grid-template-rows: 1fr 1fr 1fr; */
+            gap: 3rem;
+            margin-top: 1rem;
+            padding: 2rem;
+             }
+        .Products p,h4,h5,button{
+            margin: .3rem;
+        }
+        .Products p{
+            font-family: 'Lato', sans-serif;
+            font-size: .6rem;
+            color: #A2C579;
+            width: 80px;
+
+            display: flex;
+            justify-content: center;
+        }
+        .Products h4{
+            font-size: .9rem;
+            font-family: 'Roboto', sans-serif;
+            color: #A2C579;
+
+            display: flex;
+            justify-content: center;
+            width: 80px;
+        }
+        .Products h5{
+            font-family: 'EB Garamond', serif;
+            font-size: .7rem;
+            color: #016A70;
+            width: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .Products button{
+           background-color: transparent;
+           border: .01rem solid lightgrey;
+           border-radius: .1rem;
+           width: 80px;
+           display: flex;
+            justify-content: center;
+        }
+            .item1{
+                padding: 0.5rem;
+                border: .1rem solid lightgray;
+                border-radius: 1rem;
+
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                
+            }
+            
+
+            /* BANNER  */
+
+            .banner{
+                margin-top: 1rem;
+            }
+            .bthree {
+                font-size: .9rem;
+                margin: 0.5rem;
+            }
+            
+            .btwo {
+                font-size: 1.1rem;
+                margin: 0.5rem;
+            }
+            
+            .banner button {
+                font-size: .9rem;
+                height: 1.6rem;
+            }
+
+
+            /* <!-- Deaals  --> */
+
+            .deals {
+                margin-top: 1rem;
+            }
+
+                  .ugrid{  
+                        gap: .1rem;
+                    }
+                    .lgrid{
+                        gap: .2rem;
+                    }
+                    .indeal{
+                        display: flex;
+                        flex-direction: column;
+                        padding: 6px;
+                    }
+        .deal1{
+            background-image: url(../Assets/supports/i1.png);
+            width: 150px;
+            height: 90px;
+            background-size: cover;
+            grid-column: 2 / 3;   
+        }
+        .deal2{
+            background-image: url(../Assets/supports/i2.png);
+            width: 150px;
+            height: 90px;
+            background-size: cover;
+            grid-column: 3 / 4;
+        }
+        .deal3{
+            background-image: url(../Assets/supports/i3.png);
+            width: 100px;
+            height: 60px;
+            background-size: cover;
+            grid-column: 2 / 3;
+        }
+        .deal4{
+            background-image: url(../Assets/supports/i4.png);
+            width: 100px;
+            height: 60px;
+            background-size: cover;
+            grid-column: 3 / 4;
+        }
+        .deal5{
+            background-image: url(../Assets/supports/i5.png);
+            width: 100px;
+            height: 60px;
+            background-size: cover;
+            grid-column: 4 / 5;
+        }
+        .indeal {
+            margin-top: 0.1rem;
+        }      
+        .deal1 .indeal h3 {
+         FONT-SIZE: .7REM;
+         width: 6rem;
+         margin: 0.1rem;
+        }      
+        .deal1 .indeal h4 {
+         display: none;
+        }
+        .deal1 .indeal button{
+        width: 4rem;
+        height: 1.7rem;
+        margin: 0.1rem;
+        font-size: .7rem;
+    }
+     .deal2 .indeal h3 {
+         FONT-SIZE: .7REM;
+         margin: 0.1rem;
+         width: 5rem;
+     }      
+     .deal2 .indeal h4 {
+        display: none;
+     }
+     .deal2 .indeal button{
+        width: 4rem;
+        height: 1.9rem;
+        margin: 0.1rem;
+        font-size: .7rem;
+    }
+     .deal3 .indeal h3 {
+         FONT-SIZE: .7REM;
+         width: 5rem;
+     }
+     .deal3 .indeal h4 {
+         display: none;
+     }
+     .deal4 .indeal h3 {
+         FONT-SIZE: .7REM;
+         width: 6rem;
+         margin-top: 0.4rem;
+     }
+     .deal4 .indeal h4 {
+         display: none;
+     }
+     .deal5 .indeal h3 {
+         FONT-SIZE: .7REM;
+         width: 6rem;
+     }
+     .deal5 .indeal h4 {
+         display: none;
+     }
+
+
+        /* FOOTER  */
+
+
+        .infooter{
+    
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: start;
+            margin: 2rem 3rem 0rem 3rem;
+        }
+
+        .fthree{
+            font-size: 1.2rem;
+            color: #016A70;
+            font-family: 'Roboto', sans-serif;
+            font-weight: 15;
+        }
+        .ffive{
+            font-family: 'Roboto', sans-serif;
+            font-size: .8rem;
+            color: #FFFFDD;
+            font-weight: 15;
+        }
+        .ffour{
+            font-family: 'Lato', sans-serif;
+            font-size: 1rem;
+            color: #016A70;
+            font-weight: 15;
+        }
+        .fp{
+            font-size: .9rem;
+            color: beige;
+        }
+        .footer{
+            padding-bottom: .5rem;
+            margin-top: 3rem;
+        }
+        .contact {
+            margin-top: .1rem;
+            padding: .1rem;
+        }
+        .about {
+            margin-top: 1rem;
+            padding: .1rem;
+        }
+        .intallation {
+            margin-top: 1rem;
+            padding: .1rem;
+        }
+        .appStore{
+            width: 120px;
+        }
+        .playStore{
+            width: 120px;
+        }
+        .payMethod{
+            width: 150px;
+        }
+
+
+        /* CART */
+
+    .CartTab{
+        margin-top: 5rem;
+        width: 250px;
+        grid-template-rows: 40px 1fr 40px 50px;
+        transition: 0.5s;
+    }
+    .CartTab h2 {
+        font-size: 22px;
+        padding: 10px;
+    }
+    .CTitem {
+        display: grid;
+        grid-template-columns: 50px 65px 30px 1fr;
+        gap: 8px;
+        padding: 3px;
+    }
+     .CartTab .CTitem .CTimage img {
+       width: 50px;
+    }
+    .CartTab .CartTabBtn .close {
+        margin: 0rem 0.3rem;
+    }
+    .CartTab .CartTabBtn .CheckOut {
+        margin: 0rem 0.3rem;
+    }
+    .cartItemAndTotal {
+        font-family: 'EB Garamond', serif;
+        font-size: 14px;
+        color: #016A70;
+        height: 45px;
+        width: 14.4rem;
+        position: absolute;
+        bottom: 40;
+        margin: 0rem 0.7rem;
+        border: 0.01rem solid lightgrey;
+        border-radius: 0.1rem;
+    }
+   
+
+.CartTab .CartTabBtn button {
+    background-color: #D2DE32;
+    border: none;
+    cursor: pointer;
+    width: 7rem;
+    height: 2rem;
+    border: 0.01rem solid lightgrey;
+    border-radius: 0.1rem;
+}
+
+.CartTab .CTitem .CTquantity span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+            }
